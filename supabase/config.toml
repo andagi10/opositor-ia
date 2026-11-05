@@ -1,0 +1,5 @@
+# Configuración para la CLI de Supabase (supabase functions deploy ia)
+[functions.ia]
+# La función valida el usuario por su cuenta (auth.getUser) y acepta llamadas internas
+# con la service key para encadenar pasos; por eso no se exige JWT en la pasarela.
+verify_jwt = false
